@@ -93,7 +93,23 @@ section {
 .theme-toggle:hover {
     transform: scale(1.2);
 }
+.lang-toggle{
+    position:fixed;
+    top: 20px;
+    right: 50px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000;
+    transition: transform var(--transition);
+    color: var(--text-primary);
+    text-decoration: none;
+}
 
+.lang-toggle:hover{
+    transform: scale(1.2);
+}
 .profile-info {
     flex: 1;
 }
